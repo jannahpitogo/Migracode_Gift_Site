@@ -1,29 +1,31 @@
 body {
-    background: linear-gradient(#a2d2ff,pink);
+    background: linear-gradient(#669bbc,#ffb703 );
    
 }
 
 .captions {
     text-align: center;
-    font-family: "Happy Monkey", sans-serif;
+    font-family: "Epunda Slab", sans-serif;
     color: #ffffff;
     text-shadow: 0 0 1px black;
     
 }
 
-.happy-monkey-regular {
-  font-family: "Happy Monkey", system-ui;
-  font-weight: 400;
+.epunda-slab-regular {
+  font-family: "Epunda Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
-}
+}   
 
-#nickpic {
-    width: 200px;
+#keanupic {
+    width: 190px;
+    height: 190px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     border-radius: 50%;
-    border: 5px solid #EFB0C9;
+    border: 5px solid #003049;
 }
 
 .intro {
@@ -33,11 +35,11 @@ body {
 }
 
 #birth_age, #birth_date {
-    font-family: "Happy Monkey", sans-serif;
+    font-family: "Epunda Slab", sans-serif;
     font-weight: 100;
     color: #ffffff;
-    text-shadow: 0 0 1px black;
-    background-color: #EFB0C9;
+    text-shadow: 0 0 5px black;
+    background-color: #003049;
     text-align: center;
     padding: 5px 10px;
     border-radius: 5px;    
@@ -62,13 +64,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
-    background-image: url("images/gift-cover.jpg");
+    background-image: url("images/giftcover.jpg");
     background-size: cover;
 }
 
-#gift5 { 
-   height: 200px;
-}
 
 .bot_0 {
     margin-bottom: 0;
@@ -83,19 +82,19 @@ body {
 }
 
 #gift2:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("images/woah.gif");
 }
 
 #gift3:hover {
-    background-image: url("images/genius.gif");
+    background-image: url("images/breathtaking.gif");
 }
 
 #gift4:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/tom.gif");
 }
 
 #gift5:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("images/Thankyou.gif");
 }
 
 footer {
